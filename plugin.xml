@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plugin id="cordova-plugin-zapp" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0">
-    <name>CDVLocalWWW</name>
+    <name>CDVZAPP</name>
     <js-module name="CDVZAPP" src="www/zapp.js">
         <clobbers target="CDVZAPP" />
     </js-module>
