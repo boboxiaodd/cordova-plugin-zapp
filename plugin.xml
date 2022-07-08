@@ -16,6 +16,9 @@
                 </dict>
             </array>
         </config-file>
+        <config-file parent="/*" target="config.xml">
+            <preference name="url_scheme" value="$URL_SCHEME" />
+        </config-file>
         <header-file src="src/ios/CDVZAPP.h" />
         <source-file src="src/ios/CDVZAPP.m" />
         <framework src="src/ios/AlipaySDK.framework" custom="true" />
