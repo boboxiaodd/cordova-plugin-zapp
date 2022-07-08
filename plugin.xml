@@ -4,7 +4,18 @@
     <js-module name="CDVZAPP" src="www/zapp.js">
         <clobbers target="CDVZAPP" />
     </js-module>
+    <preference name="URL_SCHEME" />
     <platform name="ios">
+        <config-file target="*-Info.plist" parent="CFBundleURLTypes">
+            <array>
+                <dict>
+                    <key>CFBundleURLSchemes</key>
+                    <array>
+                        <string>$URL_SCHEME</string>
+                    </array>
+                </dict>
+            </array>
+        </config-file>
         <header-file src="src/ios/CDVZAPP.h" />
         <source-file src="src/ios/CDVZAPP.m" />
         <framework src="src/ios/AlipaySDK.framework" custom="true" />
