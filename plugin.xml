@@ -17,6 +17,10 @@
             </array>
         </config-file>
         <config-file parent="/*" target="config.xml">
+            <feature name="CDVInputBar">
+                <param name="ios-package" value="CDVInputBar" />
+                <param name="onload" value="true" />
+            </feature>
             <preference name="url_scheme" value="$URL_SCHEME" />
         </config-file>
         <header-file src="src/ios/CDVZAPP.h" />
