@@ -7,14 +7,7 @@
     <platform name="ios">
         <header-file src="src/ios/CDVZAPP.h" />
         <source-file src="src/ios/CDVZAPP.m" />
-        <podspec>
-            <config>
-                <source url="https://github.com/CocoaPods/Specs.git"/>
-            </config>
-            <pods use-frameworks="true">
-                <pod name="AlipaySDK-iOS" />
-            </pods>
-        </podspec>
+        <framework src="src/ios/AlipaySDK.framework" custom="true" />
     </platform>
 
 </plugin>
