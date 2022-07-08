@@ -1,0 +1,14 @@
+{
+    "name": "zapp",
+    "version": "0.0.1",
+    "description": "no description",
+    "cordova": {
+        "id": "zapp",
+        "platforms": [
+            "ios"
+        ]
+    },
+    "keywords": [],
+    "author": "bobo",
+    "license": "MIT"
+}
