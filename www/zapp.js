@@ -1,7 +1,7 @@
 const exec = require('cordova/exec');
-const CDVLocalWWW = {
-    update:function (success,fail,option){
-        exec(success,fail,'CDVLocalWWW','update',[option]);
+const CDVZAPP = {
+    zlog:function (success,fail,option){
+        exec(success,fail,'CDVZAPP','zlog',[option]);
     }
 };
-module.exports = CDVLocalWWW;
+module.exports = CDVZAPP;
