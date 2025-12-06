@@ -1,5 +1,5 @@
 {
-    "name": "zapp",
+    "name": "cordova-plugin-zapp",
     "version": "0.0.1",
     "description": "no description",
     "cordova": {
